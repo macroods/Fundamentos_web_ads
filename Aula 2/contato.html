@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleshome.css">
+  <title>Contato</title>
+</head>
+<body>
+
+    <div class="content">
+      <header>
+        <h1>Python's Club</h1>
+        <nav>
+          <div class="box">
+            <div >
+              <a href="pythonsclub.html" target="_blank" >
+                <button class="btn_home">PAGINA INICIAL</button>
+              </a>
+            </div>
+            <div >
+              <a href="pythonvideos.html" target="_blank" id="button_contato">
+                <button class="btn_contato">VIDEOS</button>
+              </a>
+            </div>
+        </nav>
+      </header>
+    
+    <br><br>
+    <h2 id="h2_contato">Para se juntar ao clube Python, preencha seu formulário:</h2>
+    <br>
+    <form method="post">
+      <table class="formulario" >
+        <tr>
+          <td><label for="nome">Nome:</label></td>
+          <td><input type="text" id="nome" name="nome" placeholder="João..." required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" placeholder="joaodasilva@gmail.com" required></td>
+        </tr>
+        <tr>
+          <td><label for="idade">Idade</label></td>
+          <td><input type="number" id="idade" name="idade" placeholder="18" required></td>
+        </tr>
+        <tr>
+          <td><label for="genero">Gênero</label></td>
+          <td>
+            <select name="genero" id="genero" required>
+              <option value="" disabled selected>Selecione uma opção:</option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="Prefiro não dizer">Prefiro não dizer</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="linguagem">Linguagem:</label></td>
+          <td><input type="text" id="linguagem" name="linguagem" placeholder="python" required></td>
+        </tr>
+      </table>
+      <br>
+    </form>
+    <button class="btn_submit" type="submit">Enviar</button>
+    <br><br><br>
+    <br>
+    <footer>
+      <p>Fundamentos de Web</p>
+      <p>@ Criado com Visual Studio Code, 2023.</p>
+    </footer>
+  </div>
+</body>
+</html>
